@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_all"
+            android:title="Všetky poznámky" />
+        <item
+            android:id="@+id/nav_favorites"
+            android:icon="@drawable/ic_action_favorite"
+            android:title="Dôležité" />
+
+        <item
+            android:id="@+id/nav_groups"
+            android:icon="@drawable/ic_group_icon"
+            android:title="Skupinové" />
+    </group>
+
+    <group android:id="@+id/menu_middle">
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_contacts"
+            android:title="Info o učiteľoch" />
+
+        <item
+            android:id="@+id/nav_contact_stud"
+            android:icon="@drawable/ic_contacts"
+            android:title="Info o študentoch" />
+
+    </group>
+
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/nav_settings_groups"
+            android:icon="@drawable/ic_action_profile"
+            android:title="Nastevenia skupín" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_action_settings"
+            android:title="Nastavenia"></item>
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_action_logout"
+            android:title="Odhlásenie" />
+    </group>
+
+</menu>

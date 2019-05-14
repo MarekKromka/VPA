@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="friYellow">#fece50</color>
+    <color name="friBlue">#337ab7</color>
+    <color name="groupMessage">#FF3C38</color>
+
+    <color name="colorPrimary">#337ab7</color>
+    <color name="colorPrimaryDark">#3359b7</color>
+    <color name="colorAccent">#fece50</color>
+    <color name="from">#000000</color>
+    <color name="subject">#111111</color>
+    <color name="timestamp">#4285f4</color>
+    <color name="message">#7a7a7a</color>
+    <color name="icon_tint_normal">#7a7a7a</color>
+    <color name="icon_tint_selected">#FED776</color>
+    <color name="row_activated">#FFFFFF</color>
+    <color name="bg_action_mode">#757575</color>
+    <color name="bg_circle_default">#666666</color>
+
+    <color name="contact_name">#333333</color>
+    <color name="contact_number">#8c8c8c</color>
+</resources>
