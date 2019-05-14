@@ -13,4 +13,4 @@ Step 2. Compile and start REST API server on local Tomcat. You just need to pres
 Step 3. Compile and start mobile app in emulator mode. (Android Studio)
 
 If somehow mobile app cannot connect to the server there is some problem with url inside mobile app which should be set to local server
-for android that is http://10.0.2.2:8080/mobile-app-ws/.
+for android that is http://10.0.2.2:8080/mobile-app-ws/. 8080 is port for Tomcat maybe you will have another port. In that case you need to change this url inside activities/LoginActivity and also inside network/ApiClient .
