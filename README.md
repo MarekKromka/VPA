@@ -1,7 +1,7 @@
 # How to make it work
 
 REST API is working with database which is currently set as local MySQL. So for making API works just change setting inside Resources/applications.properties file.
-You need to change url and credentials for login to database then everything should work. If you use some other database you need to change also other seting inside this file
+You need to change url and credentials for login to database then everything should work. If you use some other database you need to change also other setting inside this file
 and of course add new dependencies for adapter.
 
 API is Spring boot app so no need to deploy on some local installed server, IDEA will manage such work for you. 
